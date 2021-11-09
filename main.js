@@ -33,14 +33,23 @@ window.addEventListener('DOMContentLoaded', (e) => {
                 //console.log(jsonData.data)
                 if(jsonData.data.length > 0){
                     jsonData.data.forEach((game) => {
-                        scoreContent += `<div class="card>
+                        scoreContent += `
+                        <div class="scorecard">
                         <div class="row g-0">
-                        <div class="col-md-8">
-                            <p>${game.home_team.full_name}</p>
-                            <p>${game.home_team.full_name}</p>
+                            <div class="col-md-8">
+                                <h4>Teams</h4>
+                                <p>${game.home_team.full_name}<br>
+                                ${game.visitor_team.full_name}</p>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="card-body">
+                                <h4>${game.status}</h4>
+                                <p>${game.home_team_score}<br>
+                                ${game.visitor_team_score}</p>
+                                
+                            <p>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                          <div class="card-body">
                         </div>`
                     })
                     scorePage.innerHTML = scoreContent;
@@ -53,19 +62,18 @@ window.addEventListener('DOMContentLoaded', (e) => {
                 //error block
         })
     }
-    
 
 
 })
 
 
-    function bigImg(x) {
-      x.style.height = "40px";
-      x.style.width = "40px";
-    }
-    
-    function normalImg(x) {
-      x.style.height = "32px";
-      x.style.width = "32px";
-    }
+function bigImg(x) {
+    x.style.height = "6%";
+    x.style.width = "6%";
+}
+
+function normalImg(x) {
+    x.style.height = "5%";
+    x.style.width = "5%";
+}
     
