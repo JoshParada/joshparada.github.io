@@ -65,7 +65,8 @@ h2,h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    max-width: 50px;
+    padding-right: 10px;
 }
 .clutchdance:hover{
     -webkit-transform: scaleX(-1);
