@@ -60,12 +60,12 @@ window.addEventListener('DOMContentLoaded', (e) => {
 
 
     function bigImg(x) {
-      x.style.height = "40%";
-      x.style.width = "40%";
+      x.style.height = "40px";
+      x.style.width = "40px";
     }
     
     function normalImg(x) {
-      x.style.height = "32%";
-      x.style.width = "32%";
+      x.style.height = "32px";
+      x.style.width = "32px";
     }
     
