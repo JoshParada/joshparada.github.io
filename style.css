@@ -38,6 +38,7 @@ h2,h3{
 }
 .footer{
     text-align: center;
+    padding-top: 100px;
 }
 .card {
     width: 50%;
@@ -45,4 +46,24 @@ h2,h3{
 .nameLink{
     text-decoration: none;
     color: red;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%
+}
+
+.clutchdance{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.clutchdance:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
