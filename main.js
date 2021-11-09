@@ -34,7 +34,10 @@ window.addEventListener('DOMContentLoaded', (e) => {
             //error block
         })
 
+        
 })
+
+
 
 function bigImg(x) {
     x.style.height = "6%";
