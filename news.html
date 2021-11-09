@@ -9,34 +9,109 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 </head>
 <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Houston Rockets
-            
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="roster.html">Roster</a>
-              </li><li class="nav-item">
-                <a class="nav-link" href="scores.html">Scores</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Houston Rockets
+          
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="roster.html">Roster</a>
+            </li><li class="nav-item">
+              <a class="nav-link" href="scores.html">Scores</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" id="search-text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" id="search" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <!-- end of navbar -->
+  <div class="container">
+    <div class="box">
+      <!-- card 1 -->
+
+      <div class="card news-card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://s.hdnux.com/photos/01/22/56/47/21686767/3/2400x0.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Rockets went winless, yet it somehow still was an encouraging week</h5>
+                <p><a class="btn btn-danger" href="https://www.chron.com/sports/rockets/article/Houston-Rockets-West-Coast-road-trip-worst-record-16602052.php">Read More</a></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
           </div>
         </div>
-      </nav>
+      </div>
+
+      <!-- Card 2-->
+
+      <div class="card news-card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://s.hdnux.com/photos/01/22/60/22/21693611/3/2400x0.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Rockets' Christian Wood showing some early, alarming signs of frustration              </h5>
+                <p><a class="btn btn-danger" href="https://www.chron.com/sports/rockets/article/Rockets-Christian-Wood-frustrated-trade-free-agent-16606178.php">Read More</a></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3-->
+
+      <div class="card news-card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://s.hdnux.com/photos/01/22/51/50/21666361/3/ratio3x2_2400.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">LeBron, Westbrook propel Lakers past Rockets again, 119-117</h5>
+                <p><a class="btn btn-danger" href="https://www.chron.com/sports/rockets/article/LeBron-Westbrook-propel-Lakers-past-Rockets-16587901.php">Read More</a></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card 4-->
+
+
+      <div class="card news-card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://s.hdnux.com/photos/01/22/56/36/21686202/3/ratio3x2_2400.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Jordan Poole has 25 points, NBA-leading Warriors beat Rockets</h5>
+                <p><a class="btn btn-danger" href="https://www.chron.com/sports/rockets/article/Houston-Rockets-Golden-State-Warriors-game-recap-16602081.php">Read More</a></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 </body>
 </html>

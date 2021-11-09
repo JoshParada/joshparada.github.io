@@ -9,6 +9,10 @@ h2,h3{
     text-align: center;
 }
 
+.navbar {
+    margin-bottom: 30px;
+}
+
 .btn {
     margin: 10px;
 }
@@ -40,14 +44,14 @@ h2,h3{
     text-align: center;
     padding-top: 100px;
 }
-.card {
-    width: 50%;
-}
+
 .nameLink{
     text-decoration: none;
     color: red;
 }
-
+.card.news-card{
+    width: 100%;
+}
 #pricing{
     padding: 100px;
     text-align: center;

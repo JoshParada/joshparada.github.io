@@ -4,18 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Best Rockets Site Ever!!</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
-
-    
-          
-        <div class="row">
-    
-    </div>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Houston Rockets
@@ -39,13 +33,16 @@
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" id="search-text" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" id="search" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
+    <!-- end of navbar -->
 
+      <!-- main content -->
+      <div class="container">
            <!-- start main slider -->
            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -87,35 +84,36 @@
           </div>
           <!-- end main slider -->
 
-            <div class="col-8">
-                <div class="box">
-                    <h2>Welcome to the best Rockets Site</h2>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-
-            <div class="col-4">
-                <div class="box">
-                    <h3>Latest Poll</h3>
-                    <hr>
-                    <h6>Will the Rockets win the next game?</h6>
-                    <div class="vote">
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <button type="button" class="btn btn-secondary">Yes</button>
-                    </div>
-                    <hr>
-                    <div class="vote">
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <button type="button" class="btn btn-secondary">No</button>
+            <div class="row">
+                <div class="col-8">
+                    <div class="box">
+                        <h2>Welcome to the best Rockets Site</h2>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
-            </div>
 
+                <div class="col-4">
+                    <div class="box">
+                        <h3>Latest Poll</h3>
+                        <hr>
+                        <h6>Will the Rockets win the next game?</h6>
+                        <div class="vote">
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <button type="button" class="btn btn-secondary">Yes</button>
+                        </div>
+                        <hr>
+                        <div class="vote">
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <button type="button" class="btn btn-secondary">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div><!-- end of container -->
