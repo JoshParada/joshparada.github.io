@@ -36,3 +36,13 @@ h2,h3{
 .box p{
     text-align: justify;
 }
+.footer{
+    text-align: center;
+}
+.card {
+    width: 50%;
+}
+.nameLink{
+    text-decoration: none;
+    color: red;
+}
