@@ -58,9 +58,9 @@ h2,h3{
 }
 
 .clutchdance{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 5%;
+    height: 5%;
+    padding-right: 10px;
     
 }
 .clutchdance:hover{
