@@ -20,6 +20,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
     //         console.log(e.target.closest('div').querySelector('.progress-bar'));
     //     })
     // });
+
     let scorePage = document.querySelector('#scores-area');
     console.log(scorePage)
     let scoreContent = '';
@@ -37,17 +38,16 @@ window.addEventListener('DOMContentLoaded', (e) => {
                         <div class="scorecard">
                         <div class="row g-0">
                             <div class="col-md-8">
-                                <h4>Teams</h4>
-                                <p>${game.home_team.full_name}<br>
-                                ${game.visitor_team.full_name}</p>
+                                <h4>${game.date.substring(0, 10)}</h4>
+                                <p><img src="/assets/${game.home_team.abbreviation}.png" alt="" /> ${game.home_team.full_name}<br>
+                                <img src="/assets/${game.visitor_team.abbreviation}.png" alt="" /> ${game.visitor_team.full_name}</p>
                             </div>
                             <div class="col-md-4">
-                            <div class="card-body">
-                                <h4>${game.status}</h4>
-                                <p>${game.home_team_score}<br>
-                                ${game.visitor_team_score}</p>
-                                
-                            <p>
+                                <div class="card-body">
+                                    <h4>${game.status}</h4>
+                                    <p>${game.home_team_score}<br>
+                                    ${game.visitor_team_score}</p>
+                                </div>
                             </div>
                         </div>
                         </div>`
@@ -61,13 +61,8 @@ window.addEventListener('DOMContentLoaded', (e) => {
         .catch(err => {
                 //error block
         })
-    }
-
-
-        
+    }      
 })
-
-
 
 function bigImg(x) {
     x.style.height = "6%";
