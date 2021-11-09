@@ -64,7 +64,9 @@ window.addEventListener('DOMContentLoaded', (e) => {
     }
 
 
+        
 })
+
 
 
 function bigImg(x) {
@@ -72,6 +74,7 @@ function bigImg(x) {
     x.style.width = "6%";
 }
 
+    
 function normalImg(x) {
     x.style.height = "5%";
     x.style.width = "5%";
