@@ -20,19 +20,41 @@ window.addEventListener('DOMContentLoaded', (e) => {
     //         console.log(e.target.closest('div').querySelector('.progress-bar'));
     //     })
     // });
-
+    let scorePage = document.querySelector('#scores-area');
+    console.log(scorePage)
+    let scoreContent = '';
+    if(scorePage !== null){
+        fetch('https://www.balldontlie.io/api/v1/games?seasons[]=2021', {
+            method: 'get'
+        })
+        .then(response => response.json())
+        .then(
+            jsonData => {
+                //console.log(jsonData.data)
+                if(jsonData.data.length > 0){
+                    jsonData.data.forEach((game) => {
+                        scoreContent += `<div class="card>
+                        <div class="row g-0">
+                        <div class="col-md-8">
+                            <p>${game.home_team.full_name}</p>
+                            <p>${game.home_team.full_name}</p>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card-body">
+                        </div>`
+                    })
+                    scorePage.innerHTML = scoreContent;
+                    console.log(jsonData.data)
+                }else {
+                    scorePage.innerHTML = "Sorry, no scores are available just yet.";
+                }
+            })
+        .catch(err => {
+                //error block
+        })
+    }
     
-    fetch('https://www.balldontlie.io/api/v1/games?seasons[]=2021', {
-        method: 'get'
-    })
-    .then(response => response.json())
-    .then(
-        jsonData => {
-            console.log(jsonData)
-        })
-    .catch(err => {
-            //error block
-        })
+
 
         
 })
