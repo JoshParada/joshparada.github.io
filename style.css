@@ -1,0 +1,10 @@
+.footer{
+    text-align: center;
+}
+.card {
+    width: 50%;
+}
+.nameLink{
+    text-decoration: none;
+    color: red;
+}
