@@ -9,6 +9,10 @@ h2,h3{
     text-align: center;
 }
 
+.navbar {
+    margin-bottom: 30px;
+}
+
 .btn {
     margin: 10px;
 }
@@ -45,4 +49,7 @@ h2,h3{
 .nameLink{
     text-decoration: none;
     color: red;
+}
+.card.news-card{
+    width: 100%;
 }
