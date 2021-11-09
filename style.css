@@ -35,7 +35,6 @@ h2,h3{
     padding: 20px;
     border: 0;
     border-radius: 24px;
-    overflow-y: scroll;
 }
 .box p{
     text-align: justify;
