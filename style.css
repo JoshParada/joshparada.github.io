@@ -13,8 +13,15 @@ h2,h3{
     margin-bottom: 30px;
 }
 
+.form {
+    height: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .btn {
     margin: 10px;
+    
 }
 
 /* Styles for image slides */
