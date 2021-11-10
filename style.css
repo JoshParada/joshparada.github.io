@@ -22,6 +22,10 @@ h2,h3{
 .btn {
     margin: 10px;
 }
+.nameLink{
+    text-decoration: none;
+    color: red;
+}
 
 /* Styles for image slides */
 .carousel-inner .carousel-caption {
@@ -50,30 +54,15 @@ h2,h3{
     font-size: 20px;
 }
 .scorecard {
-    padding: 5
-px
-;
-    border-bottom: 1
-px
- solid #ccc;
-    margin-bottom: 10
-px
-;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
 }
 .box .scorecard p::first-letter {
     font-size: unset;
 }
 .scorecard:hover{
     box-shadow: 0 9px 8px -3px rgb(64 60 67 / 24%);
-}
-.footer{
-    text-align: center;
-    padding-top: 100px;
-}
-
-.nameLink{
-    text-decoration: none;
-    color: red;
 }
 .card.news-card{
     width: 100%;
@@ -86,7 +75,12 @@ px
 .pricing-column{
     padding: 3% 2%
 }
+.footer{
+    text-align: center;
+    padding-top: 100px;
+}
 
+/* Clutch styles */
 .clutchdance{
     display: block;
     margin-left: auto;

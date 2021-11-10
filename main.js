@@ -13,14 +13,16 @@ window.addEventListener('DOMContentLoaded', (e) => {
         }
     })
 
-    //handle vote buttons
-    let votes = document.querySelectorAll('.vote button');
+    //handle vote buttons - maybe next time
+    //let votes = document.querySelectorAll('.vote button');
     // votes.forEach((vote) => {
     //     addEventListener('click', (e) => {
     //         console.log(e.target.closest('div').querySelector('.progress-bar'));
     //     })
     // });
 
+    //score page script
+    //Make ajax request, put data in template literals and display per css rules
     let scorePage = document.querySelector('#scores-area');
     console.log(scorePage)
     let scoreContent = '';
@@ -69,7 +71,6 @@ function bigImg(x) {
     x.style.width = "6%";
 }
 
-    
 function normalImg(x) {
     x.style.height = "5%";
     x.style.width = "5%";
