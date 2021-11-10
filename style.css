@@ -21,7 +21,6 @@ h2,h3{
 
 .btn {
     margin: 10px;
-    
 }
 
 /* Styles for image slides */
@@ -45,6 +44,27 @@ h2,h3{
 }
 .box p{
     text-align: justify;
+    word-spacing: 2px;
+}
+.box p::first-letter {
+    font-size: 20px;
+}
+.scorecard {
+    padding: 5
+px
+;
+    border-bottom: 1
+px
+ solid #ccc;
+    margin-bottom: 10
+px
+;
+}
+.box .scorecard p::first-letter {
+    font-size: unset;
+}
+.scorecard:hover{
+    box-shadow: 0 9px 8px -3px rgb(64 60 67 / 24%);
 }
 .footer{
     text-align: center;

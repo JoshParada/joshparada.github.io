@@ -37,12 +37,12 @@ window.addEventListener('DOMContentLoaded', (e) => {
                         scoreContent += `
                         <div class="scorecard">
                         <div class="row g-0">
-                            <div class="col-md-8">
+                            <div class="col-8">
                                 <h4>${game.date.substring(0, 10)}</h4>
                                 <p><img src="/assets/${game.home_team.abbreviation}.png" alt="" /> ${game.home_team.full_name}<br>
                                 <img src="/assets/${game.visitor_team.abbreviation}.png" alt="" /> ${game.visitor_team.full_name}</p>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-4">
                                 <div class="card-body">
                                     <h4>${game.status}</h4>
                                     <p>${game.home_team_score}<br>
