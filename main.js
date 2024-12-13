@@ -27,8 +27,9 @@ window.addEventListener('DOMContentLoaded', (e) => {
     console.log(scorePage)
     let scoreContent = '';
     if(scorePage !== null){
-        fetch('https://www.balldontlie.io/api/v1/games?seasons[]=2021', {
-            method: 'get'
+        fetch('https://api.balldontlie.io/v1/games?seasons[]=2024', {
+            method: 'get', 
+            headers: {Authorization: 'e070b7db-cbae-4f3a-8b80-8be0b5c2dce5'}
         })
         .then(response => response.json())
         .then(
